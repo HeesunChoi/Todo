@@ -8,4 +8,7 @@ bgImage.src = `img/${choesnImage}`;
 
 bgImage.classList.add("background");
 
-document.body.appendChild(bgImage);
+const bg = document.querySelector("#content");
+
+bg.appendChild(bgImage);
+
